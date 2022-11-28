@@ -3,16 +3,20 @@
 Requirements:
 
 OS: Fedora 36
-Python: version 3.9.6
+Python: version 3.10
 Python packages:
-    pandas==1.4.2
-    numpy==1.22.3
-    scikit_learn==0.24.0
+    pandas==1.4.3
+    numpy==1.22.0
+    scikit-learn==1.1.1
+    scikit-multiflow==0.5.3
+    pm4py==2.2.26
+    matplotlib==3.5.2 
+
 
 These packages can be installed using pip.
 
-The folder 'data' includes csv files for the running examples. The folder 'results' contains all decision rule histories mentioned in the paper.
+The folder 'data' includes csv files for the synthetic dataset. The folder 'results' contains the respective evaluation results.
 
-To start the script in terminal: python continous_rule_mining.py. Per default, all use cases are started subsequently.
+To start the script in terminal: python dmma-e.py. Per default, all synthetic datasets are started subsequently.
 
 

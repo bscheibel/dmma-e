@@ -1,0 +1,54 @@
+{'Check application data': ['Normal Check', 'Extensive Check']}
+Event number: 1191
+Instance number: 240
+NEW NET REMINING
+Initial Mining - Decision Point Number  0 : 
+ |--- amount_loan <= 80744.50
+|   |--- class: Normal Check
+|--- amount_loan >  80744.50
+|   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+{'Check application data': ['Normal Check', 'Extensive Check'], 'Overall Assessment': ['(hid_8, None)', 'Write Confirmation Letter with Terms', 'Write Rejection Letter']}
+Event number: 13290
+Instance number: 2633
+NEW NET REMINING
+Initial Mining - Decision Point Number  0 : 
+ |--- amount_loan <= 78285.50
+|   |--- class: Normal Check
+|--- amount_loan >  78285.50
+|   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+Initial Mining - Decision Point Number  1 : 
+ |--- risk_level <= 3.50
+|   |--- amount_loan <= 96081.00
+|   |   |--- amount_loan <= 81750.50
+|   |   |   |--- class: Write Confirmation Letter with Terms
+|   |   |--- amount_loan >  81750.50
+|   |   |   |--- risk_level <= 1.50
+|   |   |   |   |--- class: Write Confirmation Letter with Terms
+|   |   |   |--- risk_level >  1.50
+|   |   |   |   |--- class: Write Rejection Letter
+|   |--- amount_loan >  96081.00
+|   |   |--- class: Write Rejection Letter
+|--- risk_level >  3.50
+|   |--- class: Write Rejection Letter
+ Accuracy: 1.0 
+
+change detected 4552 1664
+ Remining - Decision Point Number  1 : 
+ |--- risk_level <= 3.50
+|   |--- amount_loan <= 80152.00
+|   |   |--- class: Write Confirmation Letter with Terms
+|   |--- amount_loan >  80152.00
+|   |   |--- risk_level <= 0.50
+|   |   |   |--- class: Write Confirmation Letter with Terms
+|   |   |--- risk_level >  0.50
+|   |   |   |--- class: Write Rejection Letter
+|--- risk_level >  3.50
+|   |--- class: Write Rejection Letter
+ Accuracy: 1.0 
+
+Overal accuracy: 0.9844564297799602
+Overal accuracy: 0.9593752638244212

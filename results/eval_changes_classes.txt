@@ -1,0 +1,35 @@
+{'Check application data': ['Normal Check', 'Extensive Check']}
+Event number: 301
+NEW NET REMINING
+Initial Mining - Decision Point Number  0 : 
+ |--- amount_loan <= 71927.00
+|   |--- class: Normal Check
+|--- amount_loan >  71927.00
+|   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+{'Check application data': ['Simple Check', 'Normal Check', 'Extensive Check']}
+Event number: 12801
+NEW NET REMINING
+Initial Mining - Decision Point Number  0 : 
+ |--- amount_loan <= 32678.00
+|   |--- class: Simple Check
+|--- amount_loan >  32678.00
+|   |--- amount_loan <= 72012.00
+|   |   |--- class: Normal Check
+|   |--- amount_loan >  72012.00
+|   |   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+change detected 3585 896
+ Remining - Decision Point Number  0 : 
+ |--- amount_loan <= 29767.50
+|   |--- class: Simple Check
+|--- amount_loan >  29767.50
+|   |--- amount_loan <= 70091.50
+|   |   |--- class: Normal Check
+|   |--- amount_loan >  70091.50
+|   |   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+Overal accuracy: 0.9831541291905066

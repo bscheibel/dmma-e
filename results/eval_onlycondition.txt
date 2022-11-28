@@ -1,0 +1,19 @@
+{'Check application data': ['Normal Check', 'Extensive Check']}
+Event number: 301
+NEW NET REMINING
+Initial Mining - Decision Point Number  0 : 
+ |--- amount_loan <= 80918.50
+|   |--- class: Normal Check
+|--- amount_loan >  80918.50
+|   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+change detected 3005 1408
+ Remining - Decision Point Number  0 : 
+ |--- amount_loan <= 50187.50
+|   |--- class: Normal Check
+|--- amount_loan >  50187.50
+|   |--- class: Extensive Check
+ Accuracy: 1.0 
+
+Overal accuracy: 0.9901720647772876
